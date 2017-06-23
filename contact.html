@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>TheShutingStar</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="theme3.css">
+
+</head>
+
+<body>
+
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html">HOME</a>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="works.html">WORKS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="hello.html">HELLO</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">BLOG</a></li>
+          </ul>
+     
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+    <div class="container-fluid">
+        <div class="row flex-items-xs-middle flex-items-xs-center flex-items-md-right my-full-height">
+            <div class="my-intro-panel">
+                
+                <!-- 1. insert your name here -->
+                <h1 class="col-xs-12 display-1">Meet Esther</h1>
+                <!-- 2. what are you? -->
+                <h6 class="col-xs-12">Designer and Illustrator</h6>
+                <hr class="col-xs-12 my-thick-hr">
+                <!-- 3. short description about yourself -->
+                <p>
+                    For enquiries on bulk order or design services:
+                </p>
+                <dl>
+                   <dt><i class="fa fa-envelope-open-o"></i> email</dt> 
+                   <!-- 4. your public email -->
+                   <dd>fara@stackup.sg</dd>
+                   <dt><i class="fa fa-phone"></i> phone</dt> 
+                   <!-- 5. your contact number -->
+                   <dd>+65 987 654 32</dd>
+               </dl>
+               <hr class="my-thin-hr">
+
+               <!-- 6. change the action url to your Google App address -->
+               <form method="post" action="https://script.google.com/macros/s/AKfycbzcSyQfBmGQfFFik_Y-FxwTAdEbD6h8MYjH-ysSEEzhwd1gnz8/exec">
+                    <fieldset>
+                        <legend>Contact Me</legend>
+                        <div class="form-group">
+                            <label for="name-id">
+                                name
+                            </label>
+                            <input type="text" name="NAME" id="name-id" class="form-control my-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email-id">
+                                email
+                            </label>
+                            <input type="email" name="EMAIL" id="email-id" class="form-control my-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default my-btn form-control" id="submit-id">submit</button>
+                            
+                            <div class="alert alert-danger alert-dismissible fade in" hidden id="alert-id">
+                                <button type="button" class="close" id="close-id">
+                                    <span>&times;</span>
+                                </button>
+  
+                                Thank you! I will get in touch.
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+   <!-- jquery -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- wow.js -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+        <!-- command to initiate the wow.js -->
+        <script>new WOW().init();</script>
+        <!-- javascript -->
+        <script type="text/javascript" src=page.js></script>
+</body>
+</html>
